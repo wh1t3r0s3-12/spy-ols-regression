@@ -57,17 +57,3 @@ The notebooks in [`notebooks/`](notebooks/) are organized into three main stages
    - [`03_cooks_distance.ipynb`](notebooks/03_diagnostics_and_forecasting/03_cooks_distance.ipynb): detection of influential points using Cook's distance threshold ($4/n$).
 
 The full study documentation is available in [`docs/white_paper.pdf`](docs/white_paper.pdf) (research white paper) and [`docs/report.docx`](docs/report.docx).
-
-## Installation
-
-```bash
-git clone https://github.com/wh1t3r0s3-12/spy-ols-regression.git
-cd spy-ols-regression
-pip install -r requirements.txt
-```
-
-## Usage
-
-```bash
-jupyter notebook notebooks/
-```
